@@ -16,7 +16,7 @@ body{
 
 .jogador, .vencedor{
     font-size:30px;
-    margin: 10px;
+    margin-top: 10px;
 }
 
 button{
