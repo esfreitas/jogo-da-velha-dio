@@ -119,7 +119,7 @@ function mudaCorQuadrado(quadrado1, quadrado2, quadrado3){
 function checaSequencia(quadrado1, quadrado2, quadrado3){
     var eigual = false;
 
-    if(quadrado1 !== '-' && quadrado1.innerHTML === quadrado2.innerHTML && quadrado2.innerHTML === quadrado3.innerHTML){
+    if(quadrado1.innerHTML !== '-' && quadrado1.innerHTML === quadrado2.innerHTML && quadrado2.innerHTML === quadrado3.innerHTML){
         eigual = true;
     }
 
